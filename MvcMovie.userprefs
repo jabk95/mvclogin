@@ -1,0 +1,27 @@
+﻿<Properties StartupConfiguration="{EB95BBF2-0EF8-4043-A0D9-634C6CE7974B}|Default">
+  <MonoDevelop.Ide.Workbench ActiveDocument="MvcMovie/Views/Account/Login.cshtml">
+    <Files>
+      <File FileName="MvcMovie/Models/ApplicationUser.cs" Line="10" Column="9" />
+      <File FileName="MvcMovie/Controllers/AccountController.cs" Line="128" Column="55" />
+      <File FileName="MvcMovie/Views/Shared/_Layout.cshtml" Line="49" Column="66" />
+      <File FileName="MvcMovie/Startup.cs" Line="56" Column="97" />
+      <File FileName="MvcMovie/Data/MvcMovieContext.cs" Line="6" Column="2" />
+      <File FileName="MvcMovie/Program.cs" Line="1" Column="1" />
+      <File FileName="MvcMovie/Controllers/MoviesController.cs" Line="97" Column="19" />
+      <File FileName="MvcMovie/Views/Account/ChangeName.cshtml" Line="31" Column="1" />
+      <File FileName="MvcMovie/Views/Account/Register.cshtml" Line="1" Column="1" />
+      <File FileName="MvcMovie/Controllers/ReviewController.cs" Line="192" Column="9" />
+      <File FileName="MvcMovie/Views/Movies/Index.cshtml" Line="72" Column="5" />
+      <File FileName="MvcMovie/Views/Account/Login.cshtml" Line="22" Column="12" />
+      <File FileName="MvcMovie/Views/Movies/Create.cshtml" Line="41" Column="79" />
+      <File FileName="MvcMovie/Views/Account/AccessDenied.cshtml" Line="1" Column="1" />
+    </Files>
+  </MonoDevelop.Ide.Workbench>
+  <MonoDevelop.Ide.Workspace ActiveConfiguration="Debug" />
+  <MonoDevelop.Ide.DebuggingService.Breakpoints>
+    <BreakpointStore />
+  </MonoDevelop.Ide.DebuggingService.Breakpoints>
+  <MonoDevelop.Ide.DebuggingService.PinnedWatches />
+  <MonoDevelop.Ide.ItemProperties.MvcMovie PreferredExecutionTarget="MonoDevelop.Default" />
+  <MultiItemStartupConfigurations />
+</Properties>

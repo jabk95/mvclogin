@@ -1,0 +1,40 @@
+@model MvcMovie.Models.Review
+
+@{
+    ViewData["Title"] = "Create";
+}
+
+<h2>Create</h2>
+
+<h4>Review of @ViewData["movieTitle"]</h4>
+<hr />
+<div class="row">
+    <div class="col-md-4">
+        <form asp-action="Create">
+            <div asp-validation-summary="ModelOnly" class="text-danger"></div>
+            <div class="form-group">
+                <label asp-for="Detail" class="control-label"></label>
+                <input asp-for="Detail" class="form-control" />
+                <span asp-validation-for="Detail" class="text-danger"></span>
+            </div>
+            <div class="form-group">
+                <label asp-for="Name" class="control-label"></label>
+                <input asp-for="Name" class="form-control" />
+                <span asp-validation-for="Name" class="text-danger"></span>
+            </div>
+            <input value="@(ViewContext.RouteData.Values["parameterName"])" id="MovieID" type="hidden" />
+
+            <div class="form-group">
+                <input type="submit" value="Create" class="btn btn-default" />
+	            <a class="btn btn-default" asp-controller="Movies" asp-action="Details" asp-route-id="@ViewData["movieID"]">Cancel</a>
+
+            </div>
+        </form>
+    </div>
+</div>
+    
+
+
+@section Scripts {
+    @{await Html.RenderPartialAsync("_ValidationScriptsPartial");}
+}
